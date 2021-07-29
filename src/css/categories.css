@@ -1,0 +1,79 @@
+.categories-flex {
+    display: flex;
+    /* margin-top: 90px; */
+    margin: 90px 40px;
+}
+
+.categories-header h2 {
+    width: 93px;
+    height: 17px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-top: 15px;
+}
+
+
+.categories-cards {
+   padding: 0 20px;
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.categories-cards a {
+    color: #000000;
+    width: 128px;
+}
+
+.categories-cards a:hover,
+.categories-cards:hover {
+    background: #FFFFFF;
+    color: #FF473E;
+}
+
+.vege {
+    width: 128px;
+    height: 38px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(255, 71, 62, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: -7px;
+    /* padding-top: 5px; */
+   
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* color: #FF473E; */
+}
+
+.vege svg {
+    margin-top: 7px;
+}
+
+.vege a {
+    color: #FF473E;
+    padding-left: 5px;
+}
+
+
+@media screen and (max-width: 1100px)  {
+    .categories-flex {
+        display: none;
+        margin-top: 90px;
+    }
+
+    
+}
