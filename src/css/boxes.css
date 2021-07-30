@@ -7,7 +7,7 @@
   width: 400px;
   height: 420px;
   background-color: white;
-  margin: 40px 7px;
+  margin: 40px 13px;
 }
 
 .card-img svg {
@@ -88,43 +88,63 @@
 
 @media screen and (max-width: 1100px) {
     .chebe {
-        margin: 320px 50px;
+        margin-top: 300px;
     }
 
     .card {
-        width: 780px;
+        width: 650px;
         height: 700px;
         
     }
 
     .card-img svg {
-        width: 780px;
+        width: 650px;
         
     }
 
     .mins  {
         position: relative;
         top: -300px;
-        width: 230px;
+        width: 190px;
         height: 60px;
     }
 
     .mins svg {
-        margin-left: -20px;
+        margin-left: -290px;
         margin-top: 20px;
         
     }
 
     .mins p {
-        margin-left: 88px;
+        margin-left: 70px;
     }
 
+    .down-border {
+        margin-top: 80px;
+    }
+    
+
+    
+
     @media screen and (max-width: 500px) {
+        .chebe {
+            margin: 320px 50px;
+        }
         
 
         .card-img svg {
             width: 600px;
         }
+
+        .mins svg {
+            margin-left: -260px;
+        }
+
+        .down-border {
+            margin-top: 90px;
+        }
+        
+        
     }
      
 }

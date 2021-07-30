@@ -57,6 +57,7 @@
     }
     .container-footer {
         display: block;
+        margin-top: 300px;
     }
 
     .footer-header {
@@ -84,7 +85,7 @@
 
     @media screen and (max-width: 500px) {
         .down-footer {
-            margin-top: -40px;
+            margin-top: -70px;
             margin-right: -350px;
         }
     

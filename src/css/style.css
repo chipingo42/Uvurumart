@@ -4,6 +4,7 @@
 @import url('./boxes.css');
 @import url('./boxes2.css');
 @import url('./footer.css');
+@import url('./cart.css');
 
 :root {
     --primary-color: #FF473E;
@@ -32,10 +33,32 @@ a {
 }
 
 
+
 .navbar-content {
     background: #fff;
     height: 90px;
+    position: fixed;
+    width: 100%;
+    margin-top: -40px;
 }
+/* close-button */
+.close-button {
+    position: absolute;
+    right: 65px;
+    top: 30px;
+    z-index: 999;
+    display: none;
+}
+
+
+/* hamburger */
+.hamburger {
+    position: absolute;
+    right: 70px;
+    top: 40px;
+    display: none;
+}
+
 
 
 /* navbar */
@@ -107,17 +130,36 @@ a {
     .navbar-content {
        width: 900px;
        overflow: hidden;
+       position: fixed;
+       margin-top: -65px;
+      
+    }
+
+    /* close-bitton */
+    .close-button {
+        position: absolute;
+        right: 170px;
+        top: 25px;
+        display: block;
+    }
+
+    /* burger */
+    .hamburger {
+        position: absolute;
+        right: 170px;
+        top: 30px;
+        display: block;
     }
 
     .navbar{
        margin: 0 50px;
+       
     }
-    
     
     .navbar ul {
         position: fixed;
         left: 380px;
-        display: none;
+        display: block;
         background: #FFFFFF;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
         width: 350px;
@@ -149,27 +191,51 @@ a {
     }
 
     .btn svg {
-        margin-left: -170px;
+        margin-left: -340px;
         margin-top: 35px;
     }
     .btn p {
         position: relative;
-        left: -70px;
+        left: -160px;
         top: -40px;
        
     }
 
     @media screen and (max-width: 500px) {
         .navbar-content {
-            width: 700px;
+            width: 900px;
            
         }
+
+        .close-button {
+            position: absolute;
+            right: 210px;
+            top: 25px;
+        }
+
+        .hamburger {
+            position: absolute;
+            right: 220px;
+            top: 30px;
+        }
+        
 
         .navbar ul {
             position: fixed;
             left: 290px;
             width: 350px;
             height: 300px;
+           
+        }
+
+        .btn svg {
+            margin-left: -420px;
+        }
+
+        .btn p {
+            position: relative;
+            left: -200px;
+            top: -40px;
            
         }
 

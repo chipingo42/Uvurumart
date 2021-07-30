@@ -1,43 +1,41 @@
 .search {
-   margin: 40px 40px;
+   margin: 120px 40px;
    width: 700px;
    height: 70px;
    background: #FFFFFF;
    box-shadow: 0px 0px 10px rgba(255, 71, 62, 0.05);
    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0);
    border-radius: 999px;
+
 }
 
 
 .select {
     display: flex;
     padding-top: 25px;
-    padding-left: 40px;
 }
 
+.search-vege {
+    margin-left: 30px;
+}
 
 .search-vege select {
-    width: 168px;
-    height: 17px;
     border: none;
-    text-align: center;
-    outline: none;
-   
-
-    font-family: Inter;
+    margin-left: -50px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
     color: #8588A3;
+    outline: none;
+    margin-top: 2px;
 }
 
-
-
-.search-vege span svg {
-  /* margin-left: 40px; */
+.name {
+    padding-left: 70px;
+    margin-top: -20px;
+   
 }
-
 
 /* saerch-location */
 .search-location {
@@ -46,18 +44,14 @@
 
 
 .search-location select {
-    height: 17px;
     border: none;
-    text-align: center;
-    outline: none;
-    margin: 5px;
-   
-   font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
     color: #8588A3;
+    outline: none;
+    border: none;
 }
 
  
@@ -80,121 +74,69 @@
     background: #a7a1a1;
 }
 
+
 @media screen and (max-width: 1100px) {
     .search {
-        margin-top: 90px;
-        background: none;
-       
+       background: none;
     }
 
     .select {
         display: block;
+        margin-top: 200px;
     }
 
-        
-    .search-location select {
-       width: 400px;
-       /* height: 70px; */
-       margin-left: -40px;
+    .search-vege  {
+      width: 620px;
+      background: #FFFFFF;
+      height: 70px;
+      border-radius: 99px;
+    }
+
+    .search-vege svg {
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+
+    .search-vege select {
+        width: 500px;
+        margin-left: 20px;
        
     }
 
-    .search-vege {
-        background: #FFFFFF;
-        width: 750px;
-        height: 70px;
-        border-radius: 999px;
-        padding-top: 20px;
-        margin-left: -25px;
+    .search-location  {
+        width: 620px;
+      background: #FFFFFF;
+      height: 70px;
+      border-radius: 99px;
+      margin: 15px 30px;
+     
+    }
+
+    .search-location  select {
+        width: 500px;
+        margin-left: 20px;
+        padding-left: 40px;
        
     }
 
-    .name {
-        padding-left: 70px;
-       
-    }
-
-    .search-vege span svg {
-        margin-left: 70px;
-       
-    }
-      
-
-    .search-location {
-        background: #FFFFFF;
-        width: 750px;
-        height: 70px;
-        border-radius: 999px;
-        padding-top: 20px;
-        margin-left: -25px;
+    .search-location svg {
+        margin-left: 30px;
         margin-top: 20px;
-       
-    }
-
-    .name-loca {
-        padding-left: 70px;
-       
-    }
-
-
-    .search-location span svg {
-        margin-left: 90px;
-       
     }
 
     .btn-search button {
-        margin-left: -25px;
-        width: 750px;
+        width: 620px;
         height: 70px;
-        border-radius: 999px;
-        padding-top: 20px;
-        margin-top: 20px;
-       
+        border-radius: 99px;
+        margin: 7px 30px;
     }
-
-    @media screen and (max-width: 500px) {
-        .select {
-           flex: 1;
-           margin: 0px 50px;
-          
-
-        }
-
-        .search-vege span svg {
-            margin-left: 70px;
-        }
-
-
-        .search-vege {
-           width: 550px;
-           margin-left: -80px;
-           padding-left: 30px;
-          
-        }
-
-        .search-location {
-            width: 550px;
-            margin-left: -80px;
-           
-        }
-
-        .btn-search button {
-            width: 550px;
-            margin-left: -80px;
-           
-        }
-
-
-
-
-
-
-
-    }
-      
-
-
+  
     
 
     
+
+   
+
+
+
 }

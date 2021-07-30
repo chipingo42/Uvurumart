@@ -9,6 +9,7 @@
     font-size: 64px;
     line-height: 77px;
     margin: 40px 40px;
+    padding-top: 70px;
 
     color: #000000;
 }
@@ -23,13 +24,14 @@
         width: 700px;
         margin: 70px 50px;
         height: 77px;
+        padding-top: 120px;
        
     }
 
     @media screen and (max-width: 500px) {
         .showcase-content h1 {
-            width: 600px;
-            margin: 70px 40px;
+            width: 700px;
+            margin: 70px 50px;
             height: 77px;
            
         }
