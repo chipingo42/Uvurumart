@@ -4,14 +4,14 @@
     margin: 0 40px;
 }
 .card {
-  width: 400px;
+  width: 350px;
   height: 420px;
   background-color: white;
-  margin: 40px 13px;
+  margin: 40px 35px;
 }
 
 .card-img svg {
-   width: 400px;
+   width: 350px;
 }
 
 /* mins */
@@ -28,7 +28,7 @@
 }
 
 .mins svg {
-    margin-left: -180px;
+    margin-left: -150px;
     margin-top: 13px;
     
 }

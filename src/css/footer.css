@@ -1,4 +1,4 @@
-.footer-background {
+#footer {
     background: #ffff;
     height: 400px;
     margin-top: 70px;
@@ -7,7 +7,7 @@
 .container-footer {
     display: flex;
     justify-content: space-between;
-    margin: 0 40px;
+    margin: 0 70px;
     padding-top: 40px;
 }
 
