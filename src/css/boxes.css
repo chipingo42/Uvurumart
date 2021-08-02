@@ -4,14 +4,14 @@
     margin: 0 70px;
 }
 .card {
-    width: 370px;
+    width: 300px;
     background: #fff;
-    margin: 15px;
+    margin: 40px;
     height: 420px;
 }
 
 .card-img svg {
-   width: 370px;
+   width: 300px;
 }
 
 /* mins */
