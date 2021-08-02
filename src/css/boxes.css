@@ -1,17 +1,18 @@
 .chebe {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: 0 70px;
 }
 .card {
-    width: 300px;
+    width: 280px;
     background: #fff;
-    margin: 40px;
+    margin: 20px  50px;
     height: 420px;
 }
 
 .card-img svg {
-   width: 300px;
+   width: 280px;
 }
 
 /* mins */
