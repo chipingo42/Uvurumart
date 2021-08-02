@@ -18,14 +18,19 @@
     box-sizing: border-box;
 }
 
-
+html,
 body {
     font-family: 'Roboto';
     font-weight: normal;
     font-style: normal;
     background: #f2f4f5;
     scroll-behavior: smooth;
-    /* overflow: hidden; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-rendering: auto;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    min-width: 300px;
 }
 
 a {
@@ -60,7 +65,6 @@ a {
 }
 
 
-
 /* navbar */
 .navbar{
     display: flex;
@@ -69,16 +73,13 @@ a {
     margin: 0 70px;
 }
 
-.navbar-logo {
+.navbar-logo svg {
     text-align: center;
     align-items: center;
-    padding-top: 20px;
+    width: 80px;
+    padding-top: 3px;
 }
 
-.navbar-logo svg {
-    width: 50px;
-    height: 50px;
-}
 
 
 .navbar ul {
@@ -92,10 +93,11 @@ a {
 
 .navbar ul li {
     padding: 0 10px;
+    font-size: 20px;
 }
 
 .navbar ul li:hover {
-     background: rgba(255, 71, 62, 0.04);
+    background: rgba(255, 71, 62, 0.04);
    height: 90px;
    margin-top: -35px;
    padding-top: 35px;
@@ -111,28 +113,27 @@ a {
 /* btn */
 .btn svg {
     margin-left: -150px;
-    margin-top: 40px;
+    margin-top: 25px;
+    width: 40px;
+
 }
 
 .btn p {
   position: relative;
    left: -60px;
-   top: -40px;
-   width: 20px;
-   height: 20px;
+   top: -57px;
+   width: 25px;
+   height: 25px;
    background: red;
    border-radius: 50%;
    color: white;
+   padding-top: 5px;
 }
 
 
 @media screen and (max-width: 1100px) {
-    .navbar-content {
-       width: 900px;
-       overflow: hidden;
-       position: fixed;
-       margin-top: -65px;
-      
+    #nav{
+        width: 100%;
     }
 
     /* close-bitton */
@@ -152,14 +153,14 @@ a {
     }
 
     .navbar{
-       margin: 0 50px;
+       margin: 0 70px;
        
     }
     
     .navbar ul {
         position: fixed;
         left: 380px;
-        display: block;
+        display: none;
         background: #FFFFFF;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
         width: 350px;
@@ -191,54 +192,41 @@ a {
     }
 
     .btn svg {
-        margin-left: -340px;
+        margin-left: -110px;
         margin-top: 35px;
     }
     .btn p {
         position: relative;
-        left: -160px;
-        top: -40px;
+        left: -30px;
+        top: -60px;
        
     }
 
-    @media screen and (max-width: 500px) {
-        .navbar-content {
-            width: 900px;
-           
+    @media screen and (max-width: 768px) {
+        #nav{
+            width: 100%;
+        }
+    
+        .navbar-logo svg {
+           width: 50px;
+           margin-top: 20px;
         }
 
-        .close-button {
-            position: absolute;
-            right: 210px;
-            top: 25px;
-        }
-
-        .hamburger {
-            position: absolute;
-            right: 220px;
-            top: 30px;
-        }
-        
-
-        .navbar ul {
-            position: fixed;
-            left: 290px;
-            width: 350px;
-            height: 300px;
-           
+        .navbar{
+            margin: 0 20px;
+            
         }
 
         .btn svg {
-            margin-left: -420px;
+           width: 35px;
         }
 
         .btn p {
-            position: relative;
-            left: -200px;
-            top: -40px;
+           
            
         }
-
+        
+      
 
 
     }

@@ -1,17 +1,17 @@
 .chebe {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 40px;
+    margin: 0 70px;
 }
 .card {
-  width: 350px;
-  height: 420px;
-  background-color: white;
-  margin: 40px 35px;
+    width: 370px;
+    background: #fff;
+    margin: 15px;
+    height: 420px;
 }
 
 .card-img svg {
-   width: 350px;
+   width: 370px;
 }
 
 /* mins */
@@ -20,21 +20,21 @@
     display: flex;
     position: relative;
     top: -170px;
-    width: 120px;
-    height: 40px;
+    width: 140px;
+    height: 50px;
     margin-left: 30px;
     border-radius: 99px;
     background: rgba(0, 0, 0, 0.5);
 }
 
 .mins svg {
-    margin-left: -150px;
-    margin-top: 13px;
+    margin-left: -160px;
+    margin-top: 18px;
     
 }
 
 .mins p {
-    margin-left: 38px;
+    margin-left: 50px;
     margin-top: -22px;
 }
 
@@ -45,7 +45,7 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 30px;
     line-height: 19px;
     color: #64688D;
     margin-top: -40px;
@@ -65,10 +65,12 @@
 
 .span-star2 {
     margin-left: 30px;
+    font-size: 20px;
 }
 
 .span-star2 span svg {
     margin-right: 7px;
+    font-size: 30px;
 }
 
 /* down-border */
@@ -80,7 +82,7 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 25px;
     line-height: 17px;
     color: #8588A3;
 }
@@ -88,17 +90,17 @@
 
 @media screen and (max-width: 1100px) {
     .chebe {
-        margin-top: 300px;
+        margin-top: 700px;
     }
 
     .card {
-        width: 650px;
+        width: 600px;
         height: 700px;
         
     }
 
     .card-img svg {
-        width: 650px;
+        width: 600px;
         
     }
 
@@ -110,7 +112,7 @@
     }
 
     .mins svg {
-        margin-left: -290px;
+        margin-left: -260px;
         margin-top: 20px;
         
     }
@@ -119,8 +121,13 @@
         margin-left: 70px;
     }
 
+    .cabage {
+        padding: 50px 20px; 
+    }
+
     .down-border {
-        margin-top: 80px;
+        margin-top: 50px;
+        padding-top: 30px;
     }
     
 

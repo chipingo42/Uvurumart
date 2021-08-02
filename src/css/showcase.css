@@ -1,15 +1,14 @@
 
-.showcase-content h1 {
-    width: 944px;
-    height: 77px;
+.showcase-content {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 64px;
+    font-size: 24px;
     line-height: 77px;
-    margin: 0px 70px;
-    padding-top: 120px;
+    padding-top: 200px;
+    font-size: 54px;
     color: #000000;
+    margin: 0 70px;
 }
 
 .showcase-content span {
@@ -18,22 +17,10 @@
 
 
 @media screen and (max-width: 1100px) {
-    .showcase-content h1 {
-        width: 700px;
-        margin: 70px 50px;
-        height: 77px;
-        padding-top: 120px;
-       
-    }
-
-    @media screen and (max-width: 500px) {
-        .showcase-content h1 {
-            width: 700px;
-            margin: 70px 50px;
-            height: 77px;
-           
-        }
-    
+    .showcase-content {
+       width: 670px;
+       font-size: 30px;
+       margin: 0 20px;
     }
     
 }
