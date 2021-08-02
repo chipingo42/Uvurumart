@@ -88,12 +88,17 @@ a {
     padding-top: 35px;
     list-style: none;
     margin-right: 400px;
+   
 }
 
 
 .navbar ul li {
     padding: 0 10px;
-    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .navbar ul li:hover {

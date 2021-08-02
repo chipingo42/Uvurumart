@@ -1,7 +1,7 @@
 .search {
    margin: 120px 70px;
-   width: 900px;
-   height: 90px;
+   width: 629px;
+   height: 64px;
    background: #FFFFFF;
    box-shadow: 0px 0px 10px rgba(255, 71, 62, 0.05);
    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0);
@@ -15,61 +15,74 @@
     padding-top: 35px;
 }
 
+
 .search-vege select {
     border: none;
+    font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 17px;
-    color: #8588A3;
-    outline: none;
     margin-top: 10px;
-    padding-right: 20px;
+    padding-right: 15px;
+    color: #8588A3;
 }
 
 .search-vege svg {
- margin-left: 20px;
- width: 25px;
- height: 25px;
+    margin-left: 20px;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: -10px;
 }
 
 
 .name {
-    padding-left: 70px;
-    margin-top: -40px;
+    padding-left: 50px;
+    margin-top: -37px;
    
 }
 
 /* saerch-location */
-
 .search-location select {
-    position: relative;
-    top: -20px;
-    left: 70px;
-    font-size: 20px;
     border: none;
+    font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    padding-right: 20px;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 80px;
     color: #8588A3;
-    outline: none;
+    padding-right: 15px;
+    margin-top: 10px;
+
 }
 
 .search-location svg {
-    width: 20px;
-    height: 20px;
+    position: relative;
+    top: -8px;
+    width: 18px;
     margin-left: 40px;
+    height: 18px;
+
+}
+
+.locate {
+    margin-top: -40px;
+   
 }
  
 /* btn */
 .btn-search button {
+    position: relative;
+    top: -36px;
     border: none;
-    width: 170px;
-    height: 90px;
-    margin-top: -50px;
+    width: 137px;
+    height: 64px;
+    align-items: center;
     background: #FF473E;
     border-radius: 999px;
-    margin-left: 130px;
+    margin-left: 90px;
     font-size: 16px;
     color: #fff;
     transition: all 0.5s ease;

@@ -5,14 +5,14 @@
     margin: 0 70px;
 }
 .card {
-    width: 258px;
+    width: 360px;
     background: #fff;
-    margin: 20px  38px;
+    /* margin: 20px  10px; */
     height: 420px;
 }
 
 .card-img svg {
-   width: 258px;
+   width: 100%;
 }
 
 /* mins */
