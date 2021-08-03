@@ -1,166 +1,87 @@
-.chebe {
+.card-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 30px;
-}
-.card {
-    width: 370px;
-    background: #fff;
-    height: 420px;
-    margin: 10px 0px;
+    flex-basis: 1;
 }
 
-.card-img svg {
-   width: 100%;
+.card {
+    flex-basis: 1;
+   background: #fff;
+   margin: 15px 15px;
+   height: 300px;
 }
 
 /* mins */
-.mins  {
-    color: #fff;
-    display: flex;
+.mins {
     position: relative;
-    top: -170px;
-    width: 140px;
-    height: 50px;
-    margin-left: 30px;
-    border-radius: 99px;
+    top: -140px;
+    left: 20px;
+    width: 98px;
+    height: 32px;
     background: rgba(0, 0, 0, 0.5);
+    border-radius: 99px;
+    color: #fff;
 }
 
-.mins svg {
-    margin-left: -30px;
-    margin-top: 18px;
-    
+.mins span svg {
+    margin-left: 7px;
+    margin-top: 10px;
 }
 
-.mins p {
-    margin-left: 50px;
-    margin-top: -22px;
-}
-
-
-
-.cabage {
+.mins span p {
+    /* margin-left: 10px; */
     padding-left: 30px;
+    margin-top: -15px;
     font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+/* cabage */
+.cabage p {
+   margin-top: -20px;
+   margin-left: 20px;
+   font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    color: red;
-    margin-top: -40px;
-    padding: 20px 30px;
+    color: #64688D;
+
+
 }
 
+
+/* star */
 .star {
     display: flex;
-    margin-left: 30px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: #64688D;
+    flex: 1;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
-.span-star2 {
-    margin-left: 30px;
+/* order */
+.Order {
+    padding-left: 25px;
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-}
-
-.span-star2 span svg {
-    margin-right: 7px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #8588A3;
 }
 
 /* down-border */
 .down-border {
     border-top: 1px solid #F2F6FE;
-    margin-top: 25px;
-    padding-left: 30px;
+    margin-top: 20px;
     padding-top: 20px;
+    padding-left: 25px;
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    color: #8588A3;
-}
-
-
-@media screen and (max-width: 1100px) {
-    .chebe {
-        margin-top: 700px;
-    }
-
-    .card {
-        width: 600px;
-        height: 700px;
-        
-    }
-
-    .card-img svg {
-        width: 600px;
-        
-    }
-
-    .mins  {
-        position: relative;
-        top: -300px;
-        width: 190px;
-        height: 60px;
-    }
-
-    .mins svg {
-        margin-left: -260px;
-        margin-top: 20px;
-        
-    }
-
-    .mins p {
-        margin-left: 70px;
-    }
-
-    .cabage {
-        padding: 50px 20px; 
-    }
-
-    .down-border {
-        margin-top: 50px;
-        padding-top: 30px;
-    }
-    
-
-    
-
-    @media screen and (max-width: 500px) {
-        .chebe {
-            margin: 320px 50px;
-        }
-        
-
-        .card-img svg {
-            width: 600px;
-        }
-
-        .mins svg {
-            margin-left: -260px;
-        }
-
-        .down-border {
-            margin-top: 90px;
-        }
-        
-        
-    }
-     
 }

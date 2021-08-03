@@ -61,12 +61,3 @@
     /* padding-left: 5px; */
 }
 
-
-@media screen and (max-width: 1100px)  {
-    .categories-flex {
-        display: none;
-        margin-top: 90px;
-    }
-
-    
-}
