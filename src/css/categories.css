@@ -15,15 +15,13 @@
     padding-top: 15px;
 }
 
-
-.categories-cards {
-   padding: 0 20px;
+.categories-card li {
    list-style: none;
-   /* margin-top: 20px; */
   padding-top: 10px;
+  margin-left: 50px;
 }
 
-.categories-cards a {
+.categories-card li a {
     width: 45px;
     height: 17px;
     font-family: Inter;
@@ -33,11 +31,12 @@
     line-height: 17px;
 }
 
-.categories-cards a:hover,
-.categories-cards:hover {
-    background: #FFFFFF;
-    color: #FF473E;
+.categories-cards li:hover {
+   background: #FFFFFF;
+   color: #FF473E;
+   height: 38px;
 }
+
 
 .vege {
     width: 128px;
@@ -45,7 +44,6 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 1px rgba(255, 71, 62, 0.1);
     border-radius: 5px;
-    margin-top: -7px;
 }
 
 .vege span {
@@ -53,7 +51,8 @@
 }
 
 .vege svg {
-    margin-top: 7px;
+    margin-top: -3px;
+    margin-left: -20px;
 }
 
 .vege a {
@@ -61,3 +60,18 @@
     /* padding-left: 5px; */
 }
 
+@media screen and (max-width: 768px) {
+    .categories-flex {
+        margin-top: 400px 
+    }
+
+    @media screen and (max-width: 500px) {
+        .categories-card li {
+           overflow-x: scroll;
+           width: 870px;
+           white-space: nowrap;
+        }
+         
+        
+    }
+}
