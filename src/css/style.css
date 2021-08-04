@@ -55,8 +55,8 @@ a {
 /* close-button */
 .close-button {
     position: absolute;
-    right: 65px;
-    top: 30px;
+    right: 435px;
+    top: 18px;
     z-index: 999;
     display: none;
 }
@@ -65,8 +65,8 @@ a {
 /* hamburger */
 .hamburger {
     position: absolute;
-    right: 70px;
-    top: 40px;
+    right: 435px;
+    top: 30px;
     display: none;
 }
 
@@ -150,16 +150,16 @@ a {
     /* close-bitton */
     .close-button {
         position: absolute;
-        right: 170px;
-        top: 25px;
+        right: 0px;
+        top: -70px;
         display: block;
     }
 
     /* burger */
     .hamburger {
         position: absolute;
-        right: 170px;
-        top: 30px;
+        right: 0px;
+        top: -60px;
         display: block;
     }
 
@@ -171,7 +171,7 @@ a {
     .navbar ul {
         position: fixed;
         left: 380px;
-        display: none;
+        display: block;
         background: #FFFFFF;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
         width: 350px;
@@ -203,12 +203,12 @@ a {
     }
 
     .btn svg {
-        margin-left: -110px;
+        margin-left: -190px;
         margin-top: 35px;
     }
     .btn p {
         position: relative;
-        left: -30px;
+        left: -70px;
         top: -60px;
        
     }
@@ -231,6 +231,21 @@ a {
         .btn svg {
            width: 35px;
         }
+
+         
+        .navbar ul {
+            left: 100px;
+            width: 253px;
+            height: 300px;
+            margin-top: 90px;
+        }
+
+        .active {
+            padding: 20px  90px;
+        }
+    
+
+   
 
       
         
