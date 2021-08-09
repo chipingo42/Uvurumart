@@ -18,7 +18,7 @@
 .categories-card li {
    list-style: none;
   padding-top: 10px;
-  margin-left: 50px;
+  margin: 0 27px;
 }
 
 .categories-card li a {
@@ -30,30 +30,37 @@
     font-size: 14px;
     line-height: 17px;
 }
-
-.categories-cards li:hover {
-   background: #FFFFFF;
-   color: #FF473E;
-   height: 38px;
+ 
+.hover:hover {
+    background: white;
+    height: 38px;
+    border-radius: 5px;
 }
 
-
+.center {
+    margin-left: 20px;
+}
+ 
 .vege {
     width: 128px;
     height: 38px;
     background: #FFFFFF;
     box-shadow: 0px 0px 1px rgba(255, 71, 62, 0.1);
     border-radius: 5px;
+    margin-left: 20px;
 }
 
-.vege span {
-    padding-left: 7px;
+.vege p {
+  position: relative;
+  top: -18px;
+  left: 20px;
 }
 
 .vege svg {
-    margin-top: -6px;
-    margin-left: -20px;
-}
+    position: relative;
+    bottom: 3px;
+    right: 15px;
+} 
 
 .vege a {
     color: #FF473E;
@@ -62,31 +69,46 @@
 
 @media screen and (max-width: 768px) {
     .categories-flex {
-        margin-top: 400px 
+        margin-top: 400px; 
+        overflow-x: scroll;
+        width: 590px;
+        white-space: nowrap;
+        margin-left: 60px;
     }
 
+    .categories-cards li {
+      width: 100px;
+    }
+
+
     @media screen and (max-width: 500px) {
-        .categories-card li {
-           overflow-x: scroll;
-           width: 870px;
-           white-space: nowrap;
+        .categories-flex {
+            margin: 300px 37px;
+            overflow-x: scroll;
+            width: 290px;
+            white-space: nowrap;
         }
 
         .vege {
-            width: 125px;
+            width: 127px;
             height: 38px;
             margin-left: 30px;
+            margin-top: 4px;
         }
 
                 
-        .vege span {
-            padding-left: 7px;
+        .vege p{
+            position: relative;
+            top: -20px;
+            left: 17px;
+            /* padding-left: 7px; */
         }
          
 
         .vege svg {
-            margin-top: -6px;
-          position: relative;
+            position: relative;
+           top: 2px;
+            left: -10px;
 
           
         }
@@ -94,4 +116,8 @@
          
         
     }
+
+
+
+    
 }

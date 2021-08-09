@@ -108,14 +108,21 @@
         }
 
         
-    .flex-itm li {
-        margin-left: -130px;
-        padding-left: 100px;
+        .flex-itm li {
+            margin-left: -130px;
+            padding-left: 100px;
+        }
+
+        .down-footer {
+            margin-top: 80px;
+        }
+
+
+
     }
 
 
 
 
-    }
 
 }

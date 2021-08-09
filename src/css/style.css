@@ -152,14 +152,14 @@ a {
         position: absolute;
         right: 0px;
         top: -70px;
-        display: block;
+        display: none;
     }
 
     /* burger */
     .hamburger {
         position: absolute;
-        right: 0px;
-        top: -60px;
+        right: 40px;
+        top: 37px;
         display: block;
     }
 
@@ -228,8 +228,33 @@ a {
             
         }
 
+            
+        /* close-bitton */
+        .close-button {
+            position: absolute;
+            right: 7px;
+            top: -70px;
+            display: none;
+        }
+
+        /* burger */
+        .hamburger {
+            position: absolute;
+            right: 30px;
+            top: 37px;
+            display: block;
+        } 
+
         .btn svg {
            width: 35px;
+          position: relative;
+          left: 30px;
+        }
+
+        .btn p {
+            position: relative;
+            left: -50px;
+           
         }
 
          
