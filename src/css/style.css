@@ -114,10 +114,15 @@ a {
    padding-top: 35px;
 }
 
+.navbar ul li a:hover {
+    color: #FF473E;
+} 
+
 /* active */
 .active {
     background: rgba(255, 71, 62, 0.04);
-    padding: 37px;
+    padding: 40px;
+    color: #FF473E;
 }
 
 
