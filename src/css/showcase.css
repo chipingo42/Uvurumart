@@ -25,10 +25,28 @@
 
     @media screen and (max-width: 500px) {
         .showcase-content {
-            width: 290px;
+            width: 350px;
             padding-top: -50px;
             font-size: 30px;
            
         }
+
+        .uvuru{
+           position: relative;
+           top: -37px;
+        }
+
+
+
+
+
+        
     }
+
+
+
+
+
+
+
 }

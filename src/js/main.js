@@ -9,6 +9,6 @@ console.log(poping);
 
 
 document.querySelector('.close-button svg').addEventListener('click', function(){
-    let x = document.querySelector('.close-button').style.display = 'none';
+    let x = document.querySelector('.close-button svg').style.display = 'none';
 })
 
