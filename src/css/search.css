@@ -27,6 +27,7 @@
     margin-top: 10px;
     padding-right: 15px;
     color: #8588A3;
+    cursor: pointer;
 }
 
 .search-vege svg {
@@ -57,6 +58,8 @@
     color: #8588A3;
     padding-right: 15px;
     margin-top: 10px;
+    cursor: pointer;
+    background: #fff;
 
 }
 
@@ -86,6 +89,7 @@
     border-radius: 999px;
     margin-left: 45px;
     font-size: 16px;
+    cursor: pointer;
     color: #fff;
     transition: all 0.5s ease;
     transition-property: background;
@@ -117,6 +121,7 @@
         padding-right: 120px;
         margin-left: 70px;
         font-size: 15px;
+        background: #fff;
     }
 
     .search-vege svg {
@@ -139,6 +144,7 @@
         padding-right: 120px;
         margin-left: 130px;
         font-size: 15px;
+        background: #fff;
     }
 
     .search-location svg {
@@ -192,6 +198,7 @@
             width: 300px;
             margin: 40px 0;
         }
+
         
 
 

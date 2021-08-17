@@ -59,6 +59,7 @@ a {
     top: 18px;
     z-index: 999;
     display: none;
+    cursor: pointer;
 }
 
 
@@ -68,6 +69,7 @@ a {
     right: 435px;
     top: 30px;
     display: none;
+    cursor: pointer;
 }
 
 
@@ -131,6 +133,7 @@ a {
     margin-left: -190px;
     margin-top: 25px;
     width: 40px;
+    cursor: pointer;
 
 }
 
@@ -144,6 +147,7 @@ a {
    border-radius: 50%;
    color: white;
    padding-top: 5px;
+   cursor: pointer;
 }
 
 
